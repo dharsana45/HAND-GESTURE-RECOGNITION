@@ -1,0 +1,107 @@
+{
+    "algorithm_type": "classifier",
+    "class_names": [
+        "dog_barking",
+        "door_breaking",
+        "glass_breaking",
+        "room_noise"
+    ],
+    "commit": "bb711f54",
+    "compilation_date": "2024-10-25T08:11:07.592680",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": true,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2024.10.07.3','platform':'win64'},'studio':'4.6.0'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':true,'use_knowledge':false},'mcu':'cortex-m4_st_stm32l4_nucleo-l432kc','sensor':'sound','request_origin':'manual','algorithm_type':'classifier','lib_version':'v2_bb711f5','info':{'progression':{'evals_done':12814,'optimization_progress':0.06407,'elapsed_time':350,'cpu_info':{'cpu_nb_cores':8,'cpu_nb_cores_for_optimization':6},'state':'paused'},'max_ram':64000,'max_flash':256000,'optimization_global_id':'d2dde4c54f459f2dc866148a93483f4d'},'class_names':'dog_barking,door_breaking,glass_breaking,room_noise','results':[{'result_id':36,'combination':[1,[12,13,5,7,26,24,21,19,18,20,2,11,22,14,23,25,6,17,9,1,10,16,3,15,8,0,4],27,0,0,2,[110,110],35,0.372,256,4,0.573,0,3,1,4,0,0.0,0.0,1000000.0,2,0,0,0,0],'model':4,'performance':{'performance':{'score':0.6662,'precision':0.6771,'precision_confidence_interval':[0.6023,0.7475]},'memory_usage':{'estimated_ram':2493,'estimated_flash':1180,'estimated_flash_knowledge':null}},'learning_min_lines':null,'knowledge_dat':'eNpNlHtME1YUh4saRRGoRgeiWLEgIut0CEPacs9tpQLiA3HODV-TYVlQAQcqjAwRXbBCq1WQIY_N8RhOVCwTUOg9dz6YkhBkiyg-wlAE5RFfnVQKOEiWuC_5kvM7Ocn573cIRMuuij2CjsZ7B2Q8P0XD1eXBSvaBalr6GNoyKUglLtyubIk5DIIRUpo8g8vslwXoI68HVMW3giLrs6WScpNydWYP_PQyUjXqhN2hqqaOoqXHiserOtMawdhrDqhs75L2rDEHWGwkfp_mTfc9sHqGLDxqGFZG-flIv54ou7vDmsaXVEtLIlrkXS3BitFfuqFLPuc3obS_2UFGZmioo2RY5lpzxL_asoEubHwsHTXQOUYaXf5SOne4Rrb8ThG5dTFHvlP1EU2bGy0XCISKUdcFefKa5hxoXRbN_PLqsT3hLu6_sA4Ovd2Mng9zwXAzBuzzpigGp86D314_Id0-9TR5oIXa1V1DlaEUol4M4rBdOCT2SXj88W_h8ncSJG0mNPTm4PqMYSI5lcmS3PVk8mE51M72oAqnMky4vFW-9UEB7FndSif3eaDvGmdA60s80cqetyqyiVlgDW5bjGzjWhNTeyvxrNpSW2GvZ1_GLYCQoV3grJ5HtTqxvLF1E5R8OAksEQK6clYDJhgGYMX2aJz9OhTCn_0IBZ5_gu7xRbSP09Cbh1NB1JtPGyL388RbTjR64X248WgFHxN1Atb-nYF7VS9x14lOtG15xm6cysKzldOh4ecjZMKVRRj66B7qBj9h1uUHySr_KsL6z-Pec9aQ7m4Eg0IGr26749jgdqPdH4hjCrNRsOkJKf3elnae8ebDi-JI4IMC5KUZGBl4hvX-YsYJmjT_BsFM7nXlDliL6lkIxoCNNJ3fd1MaFyyvYpLmPeDQp8dzkQDXFzCM8HKgQepCdHfsgGo7EfoGZeCqtm4Wa9Hi1RQxe3itDjKfI5biX4xnbpOvHWxE0w_9_grHJpx2LgLdNltxFvUVqy4-CWNFvzKXfBG3EFdMKTMZ_1k8nsvuLQebdC-e_W47U3-8giuFFSRscx4_qfidlOx0xG7rZFDP6WMDu8Ngw8Iw_irJC08nzeU933SRhttJmKwJRfPnaXjUoGfxuU6oSyFUvKQdlyRqoSJWy9pcZuLOyi2okdlAbFEVsum58EWYDQ95cYCusnLnOf5T6fqNQpxVdJyZnhGsDNViWWcty5ydjFM0Y-n8jnx8l67xFxZ3M1_7LEy4qSMhNaexTGkitse1GB3_FG092vD65YlwyyyE-ekPsfGVGAxtjeTGGwfMHvLEiqw4hnpHfOPSC0OBHTi420yyy14Q5dsBdNtRjceMoSTN2YeE-Y6jc6zG8boLg2xWrhNY-ibBxoNadK1rwuaZ3rR-ixO1tOYB8djGFfuKcZ-fDkXyeqw13pdbNBJoWCykeYX9uG-lkOf361HxdB3vObO3blHseFLQJeYCQSodcaQvUpcK3kPfj5OVI_G_nPq__QiuCcHv748q_gVKUCJQ'}],'data':{'nb_cols':256,'nb_lines':[[{'file_type':'class','nb_lines':200},{'file_type':'class','nb_lines':200},{'file_type':'class','nb_lines':200},{'file_type':'class','nb_lines':200}]]},'only_emulators':false,'lock_type':100},'sign':108323,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 256,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "class",
+                    "nb_lines": 200
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 200
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 200
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 200
+                }
+            ]
+        ]
+    },
+    "gcc_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "learning_min_lines": null,
+    "lib_limited": false,
+    "library_id": "671b529c784f87eb6b3a0121",
+    "library_md5sum": "4084dfeae3afb52ee8d05fac4f0a1ceb",
+    "mcu": "cortex-m4_st_stm32l4_nucleo-l432kc",
+    "mcu_cpn": "NUCLEO-L432KC",
+    "mcu_display_name": "NUCLEO-L432KC - STMicroelectronics",
+    "mcu_family": "STM32L4 Series",
+    "mcu_group": "demo",
+    "mcu_type": "cortex-m4",
+    "mcu_vendor": "STMicroelectronics",
+    "memory_usage": {
+        "flash": 2829,
+        "ram": 2333
+    },
+    "optimization_info": {
+        "max_flash": 256000,
+        "max_ram": 64000,
+        "optimization_global_id": "d2dde4c54f459f2dc866148a93483f4d",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 8,
+                "cpu_nb_cores_for_optimization": 6
+            },
+            "elapsed_time": 350,
+            "evals_done": 12814,
+            "optimization_progress": 0.06407,
+            "state": "paused"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 1180,
+            "estimated_flash_knowledge": null,
+            "estimated_ram": 2493
+        },
+        "performance": {
+            "precision": 0.6771,
+            "precision_confidence_interval": [
+                0.6023,
+                0.7475
+            ],
+            "score": 0.6662
+        }
+    },
+    "request_type": "library",
+    "sensor": "sound",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2024.10.07.3"
+        },
+        "studio": "4.6.0",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "user_info": {
+        "company": "Kongu Engineering College",
+        "email": "dharshanselvam2005@gmail.com",
+        "first_name": "Dharshan",
+        "last_name": "S"
+    }
+}
